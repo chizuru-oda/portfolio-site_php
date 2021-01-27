@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>遠堂</title>
-		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
 		<!-- Google Hosted LibrariesからjQuery取得 -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- ▲ローカルに保存したjQuery本体へのリンクでももちろんOK -->
