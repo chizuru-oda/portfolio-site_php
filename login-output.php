@@ -4,7 +4,7 @@
 <?php
 unset($_SESSION['customer']);
 $pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
-$sql=$pdo->prepare('select * from customer where delete_flag==0 and login=? and password=?');
+$sql=$pdo->prepare('select * from customer where delete_flag=0 and login=? and password=?');
 $sql->execute([htmlspecialchars($_REQUEST['login']), htmlspecialchars($_REQUEST['password'])]);
 foreach ($sql as $row) {
 	$_SESSION['customer']=[
