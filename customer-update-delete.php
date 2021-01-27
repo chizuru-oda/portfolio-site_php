@@ -1,4 +1,4 @@
-<link rel="stylesheet"type="text/css" href="style_customer-delete.css">
+<link rel="stylesheet"type="text/css" href="css/tyle_customer-delete.css">
 
 
 <?php session_start(); ?>
