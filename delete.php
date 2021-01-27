@@ -3,7 +3,7 @@
 <link rel="stylesheet"type="text/css" href="css/style_purchase-output.css">
 <?php
 
-$pdo=new PDO('mysql:host=localhost;dbname=shop;charset=utf8', 'root', '');
+$pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
 $sql=$pdo->prepare('update purchase_detail set product_delete_flag=1 where purchase_id=? and product_id=?');
 $sql->execute([$_REQUEST['id'],$_REQUEST['B']]);
 echo '<hr>';
