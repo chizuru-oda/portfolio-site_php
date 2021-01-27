@@ -2,8 +2,7 @@
 <!-- <?php // require '../header.php'; ?>
 <?php // require 'menu.php'; ?> -->
 <?php
-$pdo=new PDO('mysql:host=localhost;dbname=shop;charset=utf8', 
-	'root', '');
+$pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
 $sql=$pdo->prepare('select * from customer where login=?');
 $sql->execute([$_REQUEST['login2']]);
 
