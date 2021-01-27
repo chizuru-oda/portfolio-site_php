@@ -8,8 +8,7 @@ session_start();
 
 ?>
 <?php
-$pdo=new PDO('mysql:host=localhost;dbname=shop;charset=utf8', 
-	'root', '');
+$pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
 $purchase_id=1;
 
 foreach ($pdo->query('select max(id) from purchase') as $row) {
