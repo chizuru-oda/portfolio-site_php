@@ -1,5 +1,5 @@
 <?php require 'header.php'; ?>
-<link rel="stylesheet"type="text/css" href="style_logout_output.css">
+<link rel="stylesheet"type="text/css" href="css/style_logout_output.css">
 
 <!--<?php // require '../header.php'; ?>
 <?php // require 'menu.php'; ?>-->
