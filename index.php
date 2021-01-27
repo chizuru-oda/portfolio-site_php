@@ -74,7 +74,7 @@ $(window).scroll(function(){
 </div>
 <div class="topprd">
 <?php
-$pdo=new PDO('mysql:host=b7c1df1ac314ad;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
+$pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
 $product=$pdo->query('select * from product');
 $i=1;
 foreach ($product as $row) {
