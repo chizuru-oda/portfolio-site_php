@@ -6,7 +6,7 @@
 <?php // require 'menu.php'; ?>-->
 <?php
 
-$pdo=new PDO('mysql:host=localhost;dbname=shop;charset=utf8', 'root', '');
+$pdo=new PDO('mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_c8976bcf9ae44a9;charset=utf8', 'b7c1df1ac314ad', '0a80227c');
 $sql=$pdo->prepare('update customer set delete_flag=1 where id=?');
 $sql->execute([$_REQUEST['id']]);
 
