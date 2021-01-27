@@ -1,0 +1,348 @@
+/*全体ページ*/
+
+body{
+	background-color: rgb(248,251,218);
+}
+
+/*header*/
+
+.menu a:link{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color: rgba(102,62,40,0.5);
+}
+
+.menu a:visited{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.menu a:active{
+	text-decoration: none;
+	color: rgba(102,62,40,0.5);
+}
+
+.fix-menu{
+    width:100%;
+    text-align:center;
+    padding:1rem;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width:80%;
+	margin: 10px auto 0;
+}
+
+.title img{
+	width:100px;
+}
+
+.navi{
+	width:600px;
+	padding:0;
+}
+
+.navi li{
+	list-style-type: none;
+}
+
+.navi ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*index*/
+
+.subtitle{
+	margin: 250px 0 50px;
+	text-align: center;
+}
+
+h1{
+	display: inline;
+	font-size: 25px;
+}
+
+.topimg{
+	text-align: center;
+	margin-top: 25px;
+
+}
+
+.topimg img{
+	width: 800px;
+}
+
+.topprd{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 75%;
+	margin: 0 auto 50px;
+}
+
+.topprd a:link{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.topprd a:hover{
+	text-decoration: none;
+	color: rgba(102,62,40);
+	opacity: 0.5;
+}
+
+.topprd a:active{
+	text-decoration: none;
+	color: rgba(102,62,40);
+	opacity: 0.5;
+}
+
+.topprd a:visited{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.topprd-item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.topprd-item img{
+	width: 300px;
+	border-radius: 5px;
+	filter: brightness(130%) saturate(140%);
+}
+
+.csslink{
+	width: 80px;
+	height: 1.2em;
+	text-align: center;
+	background-color: rgb(248,251,218);
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #61cc2b;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.csslink:hover {
+  background: #61cc2b;
+  color: white;
+}
+
+/*ログインページ*/
+
+.login{
+	width: 400px;
+	margin: 150px auto 0;
+}
+
+.login p{
+	margin: 150px 0 0;
+}
+
+.center{
+	text-align: center;
+}
+
+.login input{
+	width: 400px;
+	height: 2em;
+	border-radius: 6px;
+	border: 1px solid;
+}
+
+.login input[type="submit"]{
+	width: 150px;
+	height: 2.5em;
+	text-align: center;
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #b0d455;
+	border: solid 2px #b0d455;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+}
+
+.login input[type="submit"]:hover {
+  background: #b0d455;
+  color: white;
+}
+
+.error{
+	margin-top: 100px;
+	margin-bottom: -80px;
+	text-align: center;
+	color: #F00;
+}
+
+/*マイページ*/
+
+.mylink{
+	margin-top: 70px;
+}
+
+/*商品一覧*/
+
+.textarea {
+	margin-left: 14%;
+}
+.t_box {
+	width: 30em;
+	/*height: 1.5em;*/
+}
+.container {
+  display: inline-flex;
+  align-content: space-around;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.item {
+	display: inline;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0;
+	/*width: 33.33333333%;*/
+	text-align:center;
+}
+
+.detail_img{
+	width: 400px;
+	height: 300PX;
+	object-fit: cover;
+}
+.key{
+	width: 400px;
+}
+
+/*商品詳細*/
+
+.one_container{
+ 	display: inline-flex;
+	align-content: space-around;
+	flex-wrap:wrap;
+	justify-content:center;
+  align-items:center;
+  padding-left: 200px;
+  padding-right: 200px;
+ }
+
+ .one_item {
+	display: inline;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0;
+	text-align:center;
+}
+.nav {
+	width: 30%;
+}
+
+.image-photo { 
+	box-sizing: border-box;
+	width:600px;
+	height:450px;
+	object-fit:cover;
+	padding: 0 1em 1em 0;
+ }
+
+.return {
+ 	font-size: 22px;
+ }
+.one_main {
+ 	text-align: center;
+ 	position: relative;
+ }
+ 
+.title {
+	margin: 0;
+}
+.title_in{
+	font-size: 16pt;
+	margin: 0;
+	margin-top: -25px;
+}
+.pce{
+	padding-top: 1em;
+}
+.xyz {
+	/*clear: both;*/
+}
+
+/*footer*/
+.footer {
+	margin-top: 250px;
+	background-color: rgb(248,251,218);
+}
+.footer__wrapper {
+	display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.contact {
+    width: 40vw;
+    margin-left: 8vw;
+}
+.contact__ttl {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+.contact__company {
+    display: flex;
+}
+.contact__ceo {
+    display: table;
+}
+.contact__ceo--img {
+    width: 15vw;
+    height: 10vw;
+    object-fit: cover;
+}
+.contact__ceo--txt {
+    display: table-caption;
+    caption-side: bottom;
+}
+.contact__txt {
+    font-size: 1.1vw;
+    margin-left: 2vw;
+}
+.follow {
+    width: 40vw;
+}
+.follow__ttl {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+.follow__ico {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 55px;
+    list-style: none;
+}
+.fab {
+    color: rgb(102,62,40);
+    margin-right: 0.8em;
+    text-decoration: none;
+}
+.copyright {
+    font-size: 1.3em;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+p{
+    text-align: center;
+}
+
+.history{
+    margin-top: 50px;
+    font-size: 24px;
+    color: #b0d455;
+}
+
+table.his_table {
+    border: 1px solid #D5EAD8;
+    width: 86%;
+    margin: 40px auto 0;
+    position: relative;
+    z-index: 100000;
+    box-sizing: border-box;
+    font-size: inherit;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+table.his_table th, table.his_table td {
+    padding: 10px 0;
+    border-left: 1px solid #D5EAD8;
+    border-bottom: 1px solid #D5EAD8;
+    font-size: 15px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr {
+  margin-top: 50px; 
+  border-top: 3px dashed #D5EAD8;
+}
+
+a.his_name {
+    color: #61cc2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover.his_name {
+    color: #b0d455;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mypage {
+    margin: 30px 0; 
+    text-align: center;
+}
+
+.mypage a {
+    width: 150px;
+    text-align: center;
+    background-color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    color: #b0d455;
+    transition: .4s;
+    font-weight: bold;
+}

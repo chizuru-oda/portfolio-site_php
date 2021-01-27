@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.mylink {
+    text-align: center;
+    margin-top: 150px;
+}
+
+table {
+    margin: 0 auto 0;
+}
+
+td {
+    padding: 0 50px 0;
+}
+
+a.link {
+    width: 150px;
+    text-align: center;
+    background-color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    color: #b0d455;
+    transition: .4s;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+p {
+	margin-top: 50px;
+	text-align: center;
+}
+
+hr {
+  margin-top: 50px; 
+  border-top: 3px dashed #D5EAD8;
+}

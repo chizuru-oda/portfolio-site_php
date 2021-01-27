@@ -1,0 +1,26 @@
+p {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 18px;
+}
+
+.text {
+    margin: 30px 0; 
+    text-align: center;
+}
+
+.text a {
+    width: 150px;
+    text-align: center;
+    background-color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    color: #b0d455;
+    transition: .4s;
+    font-weight: bold;
+}
+
+hr {
+  margin-top: 50px; 
+  border-top: 3px dashed #D5EAD8;
+}

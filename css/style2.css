@@ -1,0 +1,372 @@
+
+body{
+	font-family: '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+    overflow-y: scroll;
+}
+
+/*header*/
+
+.fix-menu{
+    width:90%;
+    text-align:center;
+    padding:1rem;
+    margin:0 auto;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width:80%;
+	margin: 10px auto 0;
+}
+
+.title img{
+	width: 100px;
+}
+
+.navi{
+	width:600px;
+	padding:0;
+}
+
+.navi li{
+	list-style-type: none;
+}
+
+.navi ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*index*/
+
+.menu2{
+	width:20%;
+	text-align: center;
+}
+
+.title2 img{
+	width:200px;
+	margin-top: 40px;
+}
+
+.navi2{
+	margin:0;
+	padding:0;
+}
+
+.navi2 li{
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+
+.navi2 ul{
+	margin-top:80px;
+	padding:0;	
+}
+
+.csslink{
+	width: 80px;
+	height: 1.2em;
+	text-align: center;
+	background-color: #fff;
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #61cc2b;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+}
+
+.csslink:hover {
+  background: #61cc2b;
+  color: white;
+}
+
+.topflex{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.topimg{
+	text-align: right;
+	margin-right: -8px;
+	margin-top: -50px;
+	padding: 0;
+
+}
+
+.topimg img{
+	border-radius: 55% 0 0;
+	width: 1200px;
+	margin: 0;
+}
+
+.aboutimg img{
+	margin-top: 300px;
+	margin-left: -250px;
+	border-radius: 0 0 55%;
+}
+
+.abouttext{
+	width: 22%;
+	margin-top: 600px;
+	margin-right: 60px;
+	font-size: 25px;
+}
+
+.fadeInDown {-webkit-animation-fill-mode:both;-ms-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-ms-animation-duration:1s;animation-duration:1s;-webkit-animation-name: fadeInDown;animation-name: fadeInDown;visibility: visible !important;}
+@-webkit-keyframes fadeInDown {0% { opacity: 0; -webkit-transform: translateY(-20px); }100% { opacity: 1; -webkit-transform: translateY(0); }}
+@keyframes fadeInDown {0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }}
+
+.csslink3{
+	width: 200px;
+	height: 1em;
+	line-height: 1em;
+	text-align: center;
+	font-size: 25px;
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0.4em 1em 0.2em;
+	text-decoration: none;
+	color: #61cc2b;
+	border: solid 2px #61cc2b;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+}
+
+.csslink3:hover{
+  background: #61cc2b;
+  color: white;	
+}
+
+.subtitle{
+	margin: 300px 0 50px;
+	text-align: center;
+}
+
+.topprd{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 75%;
+	margin: -150px auto 50px;
+}
+
+.topprd-title a:link{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.topprd-title a:hover{
+	text-decoration: none;
+	color: rgba(102,62,40);
+}
+
+.topprd-title a:active{
+	text-decoration: none;
+	color: rgba(102,62,40);
+}
+
+.topprd-title a:visited{
+	text-decoration: none;
+	color: rgb(102,62,40);
+}
+
+.topprd-item{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.hover {
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover:hover {
+  transform: translateY(-0.5em);
+}
+
+.topprd-item img{
+	width: 180px;
+	border-radius: 5px;
+}
+
+.itemheight2{
+	margin-top: 180px;
+	margin-left: -80px;
+}
+
+.itemheight3{
+	margin-top: 360px;
+	margin-left: -40px;
+}
+
+.itemheight4{
+	margin-top: 360px;
+	margin-right: -40px;
+}
+
+.itemheight5{
+	margin-top: 180px;
+	margin-right: -80px;
+}
+
+/*ログインページ*/
+
+.login{
+	width: 400px;
+	margin: 50px auto 0;
+}
+
+.login p{
+	margin: 100px 0 0;
+}
+
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.login input{
+	width: 400px;
+	height: 2em;
+	border-radius: 6px;
+	border: 1px solid;
+}
+
+.login input[type="submit"]{
+	width: 150px;
+	height: 2.2em;
+	font-size: 1em;
+	text-align: center;
+	background-color: #FFF;
+	display: inline-block;
+	padding-bottom: 0.2em;
+	text-decoration: none;
+	color: #b0d455;
+	border: solid 2px #b0d455;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+}
+
+.login input[type="submit"]:hover {
+  background: #b0d455;
+  color: white;
+}
+
+.csslink2{
+	width: 115px;
+	height: 1.3em;
+	text-align: center;
+	background-color: #FFF;
+	display: inline-block;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	color: #b3424a;
+	border: solid 2px #b3424a;
+	border-radius: 3px;
+	transition: .4s;
+	font-weight: bold;
+	vertical-align: text-top;
+}
+
+.csslink2:hover{
+  background: #b3424a;
+  color: white;	
+}
+
+.error{
+	margin-top: 100px;
+	text-align: center;
+	color: #F00;
+}
+
+/*マイページ*/
+
+.mylink{
+	margin-top: 70px;
+}
+
+/*カート*/
+
+.topmargin{
+	margin-top: 50px;
+}
+
+.returnlink a:link{
+    color:#61cc2b;
+}
+.returnlink a:hover{
+    color:#61cc2b;
+}
+.returnlink a:active{
+    color:#61cc2b;
+}
+.returnlink a:visited{
+    color:#61cc2b;
+}
+
+/*footer*/
+.footer {
+	margin-top: 250px;
+	background-color: rgb(248,251,218);
+}
+.footer__wrapper {
+	display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.contact {
+    width: 40vw;
+    margin-left: 8vw;
+}
+.contact__ttl {
+    font-size: 25px;
+    margin-bottom: 0.5em;
+}
+.contact__company {
+    display: flex;
+}
+.contact__ceo {
+    display: table;
+}
+.contact__ceo--img {
+    width: 15vw;
+    height: 10vw;
+    object-fit: cover;
+}
+.contact__ceo--txt {
+    display: table-caption;
+    caption-side: bottom;
+}
+.contact__txt {
+    font-size: 1.1vw;
+    margin-left: 2vw;
+}
+.follow {
+    width: 40vw;
+}
+.follow__ttl {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+.follow__ico {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    list-style: none;
+}
+.fab {
+    color: rgb(102,62,40);
+    margin-right: 0.8em;
+    text-decoration: none;
+}
+.copyright {
+    font-size: 0.8em;
+    text-align: center;
+}
